@@ -1,16 +1,44 @@
-# coinstep
+#🪙 CoinStep
+CoinStep is an offline-first personal finance app built with Flutter. It helps users track their expenses and income, and seamlessly syncs data between local storage (Drift) and cloud storage (Supabase) when online. It also features secure email-based sign-up and deep linking confirmation.
 
-A new Flutter project.
+🚀 Features
+✅ Track income and expenses
 
-## Getting Started
+📶 Offline-first architecture (Drift for local storage)
 
-This project is a starting point for a Flutter application.
+☁️ Automatic sync to Supabase when online
 
-A few resources to get you started if this is your first Flutter project:
+🔄 Bi-directional sync (Drift ↔ Supabase)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📧 Email sign-up with confirmation link
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🔗 Deep linking for secure email verification
+
+🧱 Architecture
+Flutter – UI and app logic
+
+Riverpod – State management
+
+Drift (Floor) – Local offline database
+
+Supabase – Cloud backend (auth + database)
+
+Deep Linking – For email verification
+
+🔒 Authentication Flow
+User signs up using an email.
+
+A confirmation link is sent to their inbox via Supabase.
+
+When user taps the link, deep linking opens the app.
+
+The app completes sign-in and stores session securely.
+
+🔄 Sync Flow
+Offline: Data is stored in Drift.
+
+Online:
+
+Unsynced data is pushed to Supabase.
+
+Supabase is queried for updates and synced back into Drift.
