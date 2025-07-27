@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      const url = new URL(window.location.href);
+      const token = url.searchParams.get("token");
+      const type = url.searchParams.get("type");
+      window.location.href = `myapp://login-callback?token=${token}&type=${type}`;
+    </script>
+  </head>
+  <body>
+    Redirecting to the app...
+  </body>
+</html>
