@@ -44,3 +44,10 @@
   - All syncing happens automatically in the background  
 
 ---
+## Photos
+<img width="720" height="1424" alt="Screenshot_20250803-184301_(1)" src="https://github.com/user-attachments/assets/89713e4c-4e66-4a26-afb8-02010b5fb8ed" /><img width="720" height="1418" alt="Screenshot_20250803-184309_(1)" src="https://github.com/user-attachments/assets/9b551fec-8075-433a-b9f5-e2fd716caf9d" />
+
+<img width="720" height="1430" alt="Screenshot_20250803-184316_(1)" src="https://github.com/user-attachments/assets/68dc04ce-d248-4a38-9821-397c38a13c3f" />
+<img width="720" height="1422" alt="Screenshot_20250803-184322_(1)" src="https://github.com/user-attachments/assets/6c91057c-916f-470d-98d7-85426ccadd17" />
+
+<img width="720" height="1429" alt="Screenshot_20250803-184338_(1)" src="https://github.com/user-attachments/assets/f7f8624b-2080-4a04-aed7-cd0e28075ed9" />
